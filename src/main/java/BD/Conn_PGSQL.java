@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package BD;
 
 import java.sql.Connection;
@@ -10,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class conn_PGSQL { //Clase pública
+public class Conn_PGSQL { //Clase pública
 
     /*Atributos*/
     private String usrBD;
@@ -20,10 +16,10 @@ public class conn_PGSQL { //Clase pública
     private Connection conn = null;
     private Statement estancia;
 
-    public conn_PGSQL() throws SQLException {
+    public Conn_PGSQL() throws SQLException {
         this.usrBD = "postgres";
         this.passBD = "zoacazoa";
-        this.urlBD = "jdbc:postgresql://localhost:5432/personas";
+        this.urlBD = "jdbc:postgresql://taller-mecanico.cr4i40esmq9v.us-east-2.rds.amazonaws.com:5432/taller_mecanico";
         this.driverClassName = "org.postgresql.Driver";
     }
 

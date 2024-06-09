@@ -1,5 +1,4 @@
 package BD;
-import BD.conn_PGSQL;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
@@ -8,7 +7,7 @@ import java.util.List;
 
 public class ModeloBD {
 
-    protected conn_PGSQL bd;
+    protected Conn_PGSQL bd;
     protected String comando;
     protected String tipoOper;
     
@@ -20,11 +19,11 @@ public class ModeloBD {
     }
     
     //Método para ejecutar una operación en la BD, retorna una lista con los resultados
-    protected List<String> OperacionBD() throws SQLException{
+    public List<String> OperacionBD() throws SQLException{
         
         // Lista para los resultados de la consulta
         List<String> resultados = new ArrayList<>(); 
-        bd = new conn_PGSQL(); //Se crea una nueva instancia para la conexión
+        bd = new Conn_PGSQL(); //Se crea una nueva instancia para la conexión
 
         ResultSet resultSet; //Almacena los resultados
         
@@ -56,21 +55,21 @@ public class ModeloBD {
                     }
                 }
 
-                case "insertar" ->{
+                case "alta" ->{
                     
                     System.out.println("Inserción en curso");
                     bd.insertar(comando);
 
                 // Realizar cualquier acción necesaria con el resultado de la inserción
                 }
-                case "editar" ->{ 
+                case "cambio" ->{
                     System.out.println("Edición en curso");
                     bd.edita(comando);
 
                 }
                 // Realizar cualquier acción necesaria con el resultado de la inserción
 
-                case "borrar" -> { 
+                case "baja" -> {
                     System.out.println("Borrado en curso");
                     bd.borrar(comando);
 

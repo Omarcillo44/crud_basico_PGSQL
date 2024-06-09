@@ -1,9 +1,12 @@
 package BD;
 
-import com.mycompany.crud_postgre.ModeloCRUD;
+import CRUD.Modelo_CRUD;
+
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+
+import static CRUD.Controlador_CRUD.actualizaResultados;
 
 /**
  *
@@ -27,19 +30,19 @@ public class ControladorBD {
         /*Se va a acceder a los resultados desde otras Clases,
         * por ello se requiere una misma instnacia para todo*/
     }
-    
+
     public void ejecutaQuery(String comando, String tipo_oper) throws SQLException {
         //Instancia de la clase modelo_crud para hacer una nueva operación
-        ModeloCRUD oper_bd = new ModeloCRUD();
+        Modelo_CRUD oper_bd = new Modelo_CRUD();
         oper_bd.setComando(comando, tipo_oper);
         contenedor = new ArrayList<>();
         contenedor = oper_bd.OperacionBD();
     }
-
+    public void realizaOperacion(String comando, String operacion) throws SQLException {
+        ejecutaQuery(comando, operacion); //método heredado de la clase ControladorBD
+    }
     public List<String> getContenedor() {
         return contenedor;
     }
-
-
 
 }
