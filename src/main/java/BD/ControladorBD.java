@@ -1,6 +1,5 @@
 package BD;
 
-import CRUD.Modelo_CRUD;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -33,7 +32,7 @@ public class ControladorBD {
 
     public void ejecutaQuery(String comando, String tipo_oper) throws SQLException {
         //Instancia de la clase modelo_crud para hacer una nueva operación
-        Modelo_CRUD oper_bd = new Modelo_CRUD();
+        ModeloBD oper_bd = new ModeloBD();
         oper_bd.setComando(comando, tipo_oper);
         contenedor = new ArrayList<>();
         contenedor = oper_bd.OperacionBD();

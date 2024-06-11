@@ -6,17 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="fe4d9152-35c5-445a-a160-547d88adea39" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BD/Conn_PGSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BD/Conn_PGSQL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BD/ControladorBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BD/ControladorBD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BD/ModeloBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BD/ModeloBD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CRUD/Controlador_CRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CRUD/Controlador_CRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CRUD/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CRUD/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CRUD/Modelo_CRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CRUD/Modelo_CRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CRUD/Vista_CRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CRUD/Vista_CRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crud_basico_pgsql/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/crud_basico_pgsql/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/crud_basico_pgsql/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/crud_basico_pgsql/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crud_basico_pgsql/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crud_basico_pgsql/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/crud_basico_pgsql/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +142,8 @@
       <workItem from="1717898886159" duration="11975000" />
       <workItem from="1717954726571" duration="1422000" />
       <workItem from="1717957606647" duration="4704000" />
+      <workItem from="1718090313392" duration="1551000" />
+      <workItem from="1718095585309" duration="638000" />
     </task>
     <servers />
   </component>

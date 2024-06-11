@@ -6,13 +6,12 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
-import org.example.crud_basico_pgsql.HelloApplication;
 import java.io.IOException;
 
 public class Vista_CRUD extends Application {
-
+    @Override
     public void start(Stage stage2) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("vista_crud.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(Vista_CRUD.class.getResource("vista_crud.fxml"));
         Scene scene2 = new Scene(fxmlLoader.load());
         stage2.setTitle("CRUD Básico | PGSQL");
         stage2.setScene(scene2);
