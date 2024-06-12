@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe4d9152-35c5-445a-a160-547d88adea39" name="Changes" comment="">
+    <list default="true" id="fe4d9152-35c5-445a-a160-547d88adea39" name="Changes" comment="Corrección de Errores">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BD/ControladorBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BD/ControladorBD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CRUD/Vista_CRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CRUD/Vista_CRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crud_basico_pgsql/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/crud_basico_pgsql/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/crud_basico_pgsql/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +64,7 @@
       <recent name="C:\Users\omarc\Documents\Proyectos Java\crud_basico_PGSQL\src\main\java\BD" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\omarc\Documents\Proyectos Java\crud_basico_PGSQL\src\main\resources\CRUD" />
       <recent name="C:\Users\omarc\Documents\Proyectos Java\crud_basico_PGSQL\src\main\java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -79,7 +74,7 @@
   <component name="RunManager" selected="Application.Vista_CRUD">
     <configuration name="Controlador_CRUD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CRUD.Controlador_CRUD" />
-      <module name="crud_basico_PGSQL" />
+      <module name="taller_mecanico" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="CRUD.*" />
@@ -92,7 +87,7 @@
     </configuration>
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.crud_basico_pgsql.HelloApplication" />
-      <module name="crud_basico_PGSQL" />
+      <module name="taller_mecanico" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="CRUD.*" />
@@ -105,7 +100,7 @@
     </configuration>
     <configuration name="Vista_CRUD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CRUD.Vista_CRUD" />
-      <module name="crud_basico_PGSQL" />
+      <module name="taller_mecanico" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="CRUD.*" />
@@ -143,11 +138,24 @@
       <workItem from="1717954726571" duration="1422000" />
       <workItem from="1717957606647" duration="4704000" />
       <workItem from="1718090313392" duration="1551000" />
-      <workItem from="1718095585309" duration="638000" />
+      <workItem from="1718095585309" duration="1458000" />
     </task>
+    <task id="LOCAL-00001" summary="Corrección de Errores">
+      <option name="closed" value="true" />
+      <created>1718096355534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718096355534</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Corrección de Errores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrección de Errores" />
   </component>
 </project>
